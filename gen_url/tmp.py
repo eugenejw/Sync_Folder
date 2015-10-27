@@ -1,0 +1,9 @@
+with open("samples.txt", "r") as f1:
+    with open('10000_alexa.txt', 'w') as f2:
+        count = 0
+        for line in f1:
+            count += 1
+            if count > 0:
+                f2.write("{}".format(line))
+            if count > 10000:
+                break

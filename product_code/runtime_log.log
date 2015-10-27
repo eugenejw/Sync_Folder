@@ -1,0 +1,3 @@
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.00275405579143 hr
+

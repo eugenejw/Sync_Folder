@@ -1,0 +1,4 @@
+url,domain,family,breakdowns_str,pattern_str,domain_length,total_word_count,mea_word_count_enchant,mea_word_ratio_enchant,mea_char_ratio_enchant,mea_word_count_google,mea_word_ratio_google,mea_char_ratio_google,total_pair_count,mea_pair_count,mean_pair_ratio,non_top_bigram_ratio,a,o,S,p,b,c,n,v,j,g,X
+google.com,google,0,google,n,6.0,1,1,1.0,1.0,1,1.0,1.0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+facebook.com,facebook,1,facebook,g,8.0,1,1,1.0,1.0,1,1.0,1.0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+xvedios.com,xvedios,2,x|vedios,Sg,7.0,2,0,0.0,0.0,1,0.5,0.857,1,0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0

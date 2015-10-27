@@ -1,0 +1,18 @@
+from nltk.corpus import wordnet as wn
+import re
+
+
+with open('nouns.txt','a') as f:
+    for synset in list(wn.all_synsets('n')):
+        try:
+            word = str(synset.lemmas()[0].name())
+            new_word = re.sub('_','', word)
+            print 'working on {0}\n'.format(new_word)
+            f.write('{0}\n'.format(new_word.strip()))
+        except:
+            print "failure happened on synset {0}\n".format(synset)
+
+
+
+
+

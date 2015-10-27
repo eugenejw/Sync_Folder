@@ -1,0 +1,65 @@
+new algorithm
+google off
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.518859132131 mins
+
+
+new algorithm
+google on
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 3.78836210171 mins
+
+old algorithm
+google off
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.224801667531 mins
+
+new algorithm(key_memo off)
+google on
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 6.22854268154 mins
+
+new algorithm(key_memo on)
+google off
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 96.1970965664 mins
+
+
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 3.75885476669 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 3.8400148193 mins
+
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 2.75372573535 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 2.44345818361 mins
+
+new algorithm
+google off
+only alexa 10000
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.547040951252 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.545878263315 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 0.0533251682917 mins
+
+new algorithm
+google on
+only alexa 10000
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 2.78163241545 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 1.73474726677 mins
+
+ERROR:root:logging test: this error message should go to the log file
+ERROR:root:Time_Record: 125.329439282 mins
+
